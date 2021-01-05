@@ -10,7 +10,7 @@ namespace doan.DataAcesee
 {
     class SqlProvider
     {
-        public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\phuc\source\repos\QuanLyNhanVien\QuanLyNhanVien\qlnv.mdf;Integrated Security=True";
+        public static string connectionString = @"Data Source=desktop-ftf5mtp\sqlexpress;Initial Catalog=QuanLyCuaHangBanGao;User ID=sa;Password=2012";
         public static SqlConnection connection = null;
         public static void openConnection()
         {
@@ -42,6 +42,33 @@ namespace doan.DataAcesee
 
             command.ExecuteNonQuery();
             closeConnection();
+        }
+
+        public static int ExecuteNonQuery (CommandType cmdType, string strsql, params SqlParameter[] parameters)
+        {
+            try
+            {
+                openConnection();
+                SqlCommand command = connection.CreateCommand();
+                command.CommandText = strsql;
+                command.CommandType = cmdType;
+
+                if(parameters != null && parameters.Length > 0)
+                {
+                    command.Parameters.AddRange(parameters);
+                }
+
+                int nRow = command.ExecuteNonQuery();
+                return nRow;
+            }
+            catch(SqlException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                closeConnection();
+            }
         }
 
         public static DataTable ExecuteQuery(string sql)

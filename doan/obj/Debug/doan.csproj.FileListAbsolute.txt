@@ -8,3 +8,5 @@ C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.csproj.GenerateRe
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.exe
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.pdb
+C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.PresentationLayer.PhieuBanHang.resources
+C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.PresentationLayer.PhieuNhapHang.resources
