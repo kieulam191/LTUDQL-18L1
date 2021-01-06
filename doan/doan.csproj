@@ -51,6 +51,8 @@
     <Compile Include="DataAcesee\SqlProvider.cs" />
     <Compile Include="DTO\GaoDTO.cs" />
     <Compile Include="DTO\LoaiGaoDTO.cs" />
+    <Compile Include="DTO\ThayDoiQDDTO.cs" />
+    <Compile Include="DTO\TheGhiNoDTO.cs" />
     <Compile Include="PresentationLayer\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +112,12 @@
     <EmbeddedResource Include="PresentationLayer\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\GhiNo.resx">
+      <DependentUpon>GhiNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ThayDoiQuyDinh.resx">
+      <DependentUpon>ThayDoiQuyDinh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -136,6 +144,9 @@
   <ItemGroup>
     <None Include="Resources\logoGao.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\credit_card_icon_129105.ico" />
+    <Content Include="Resources\file_rule_icon_149934.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

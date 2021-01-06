@@ -8,3 +8,15 @@ C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.csproj.GenerateRe
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.exe
 C:\Users\lam\Desktop\MonHoc\UDQL\doan\doan\doan\obj\Debug\doan.pdb
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\bin\Debug\doan.exe.config
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\bin\Debug\doan.exe
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\bin\Debug\doan.pdb
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.csprojAssemblyReference.cache
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.Form1.resources
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.Properties.Resources.resources
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.csproj.GenerateResource.cache
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.csproj.CoreCompileInputs.cache
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.exe
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.pdb
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.PresentationLayer.GhiNo.resources
+E:\OneDrive - VNU-HCMUS\Desktop\LT\doan\obj\Debug\doan.PresentationLayer.ThayDoiQuyDinh.resources
