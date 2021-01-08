@@ -50,7 +50,8 @@ namespace doan
             else if (btn.Text == "Kiểm tra kho hàng")
             {
                 KhoHang frmKhoHang = new KhoHang();
-                frmKhoHang.ShowDialog();
+                //frmKhoHang.ShowDialog();
+                MessageBox.Show("Chức năng chưa hoàn thành");
             }
             else if (btn.Text == "Nhà cung cấp")
             {
@@ -60,12 +61,14 @@ namespace doan
             else if (btn.Text == "Ghi nợ")
             {
                 GhiNo frmGhiNo = new GhiNo();
-                frmGhiNo.ShowDialog();
+                //frmGhiNo.ShowDialog();
+                MessageBox.Show("Chức năng chưa hoàn thành");
             }
             else if (btn.Text == "Thống kê")
             {
                 ThongKe frmThongKe = new ThongKe();
-                frmThongKe.ShowDialog();
+                //frmThongKe.ShowDialog();
+                MessageBox.Show("Chức năng chưa hoàn thành");
             }
             else
             {

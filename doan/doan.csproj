@@ -46,17 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLayer\KhachHangBUS.cs" />
+    <Compile Include="BusinessLayer\NhaCungCapBUS.cs" />
+    <Compile Include="BusinessLayer\PhieuBanHangBUS.cs" />
     <Compile Include="BusinessLayer\PhieuNhapHangBUS.cs" />
     <Compile Include="BusinessLayer\TrangChuBUS.cs" />
+    <Compile Include="DataAcesee\ChiTietPhieuBanDAO.cs" />
     <Compile Include="DataAcesee\ChiTietPhieuNhapDAO.cs" />
     <Compile Include="DataAcesee\GaoDAO.cs" />
+    <Compile Include="DataAcesee\KhachHangDAO.cs" />
     <Compile Include="DataAcesee\LoaiGaoDAO.cs" />
+    <Compile Include="DataAcesee\NhaCungCapDAO.cs" />
+    <Compile Include="DataAcesee\PhieuBanHangDAO.cs" />
     <Compile Include="DataAcesee\PhieuNhapGaoDAO.cs" />
     <Compile Include="DataAcesee\SqlProvider.cs" />
+    <Compile Include="DataAcesee\TheKhachHangDAO.cs" />
+    <Compile Include="DTO\ChiTietPhieuBanDTO.cs" />
     <Compile Include="DTO\ChiTietPhieuNhapDTO.cs" />
     <Compile Include="DTO\GaoDTO.cs" />
+    <Compile Include="DTO\KhachHangDTO.cs" />
     <Compile Include="DTO\LoaiGaoDTO.cs" />
+    <Compile Include="DTO\NhaCungCapDTO.cs" />
+    <Compile Include="DTO\PhieuBanHangDTO.cs" />
     <Compile Include="DTO\PhieuNhapHangDTO.cs" />
+    <Compile Include="DTO\TheKhachHangDTO.cs" />
     <Compile Include="PresentationLayer\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,11 +129,23 @@
     <EmbeddedResource Include="PresentationLayer\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\GhiNo.resx">
+      <DependentUpon>GhiNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\NhaCungCap.resx">
+      <DependentUpon>NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\PhieuBanHang.resx">
       <DependentUpon>PhieuBanHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PresentationLayer\PhieuNhapHang.resx">
       <DependentUpon>PhieuNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationLayer\ThayDoiQuyDinh.resx">
+      <DependentUpon>ThayDoiQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

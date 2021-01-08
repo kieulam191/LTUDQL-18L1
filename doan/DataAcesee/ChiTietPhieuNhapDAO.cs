@@ -23,5 +23,10 @@ namespace doan.DataAcesee
             return SqlProvider.ExecuteQuery(sql);
         }
 
+        public static DataTable select(string sql)
+        {
+            return SqlProvider.ExecuteQuery(sql);
+        }
+
     }
 }

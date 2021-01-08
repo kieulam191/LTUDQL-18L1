@@ -36,9 +36,30 @@ namespace doan.BusinessLayer
         }
 
 
-        public void LayThongTin()
+        public DataTable LayThongTinGao(string MaGao)
         {
-            
+            string sql = string.Format("SELECT * FROM Gao where Magao='{0}'", MaGao);
+            return PhieuNhapGaoDAO.select(sql);
         }
+
+        public double LayGiaGaoHienTai(string MaGao)
+        {
+            string sql = string.Format("SELECT GiaBanRa FROM ChiTietPhieuNhap where Magao='{0}'", MaGao);
+            DataTable dt = PhieuNhapGaoDAO.select(sql);
+            DataRow row = dt.Rows[0];
+            double gia = double.Parse(row["GiaBanRa"].ToString());
+            return gia;
+        }
+
+        public DataTable LayThongTinPhieuNhap(string MaPhieuNhap)
+        {
+            string sql = string.Format("Select ct.*, p.NgayNhap from ChiTietPhieuNhap ct JOIN PhieuNhapGao p " +
+                "ON CT.MaPhieuNhap = p.MaPN " +
+                "JOIN Gao G ON G.MaGao = ct.MaGao " +
+                "where MaPhieuNhap = '{0}'", MaPhieuNhap);
+            return ChiTietPhieuNhapDAO.select(sql);
+        }
+
+       
     }
 }
