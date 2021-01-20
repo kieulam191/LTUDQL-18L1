@@ -39,8 +39,8 @@ namespace doan.BusinessLayer
 
         public DataTable ThemMaThe(KhachHangDTO kh)
         {
-            string sql = string.Format("Insert into KhachHang values('{0}', '{1}' ," +
-                "'{2}', '{3}', '{4}' )", kh.MaKH, kh.TenKH, kh.Sdt, kh.DiaChi, kh.Cmnd);
+            string sql = string.Format("Insert into KhachHang values('{0}', N'{1}' ," +
+                "'{2}', N'{3}', '{4}' )", kh.MaKH, kh.TenKH, kh.Sdt, kh.DiaChi, kh.Cmnd);
             return TheKhachHangDAO.insert(sql);
         }
 
@@ -58,7 +58,7 @@ namespace doan.BusinessLayer
 
         public DataTable CapNhatThongTinKhachHang(KhachHangDTO kh)
         {
-            string sql = string.Format("UPDATE KhachHang Set TenKH = '{0}', Sdt = '{1}', DiaChi = '{2}', CMND= '{3}'" +
+            string sql = string.Format("UPDATE KhachHang Set TenKH = N'{0}', Sdt = '{1}', DiaChi = N'{2}', CMND= '{3}'" +
                "WHERE MaKH = '{4}'", kh.TenKH, kh.Sdt, kh.DiaChi, kh.Cmnd, kh.MaKH);
             return KhachHangDAO.update(sql);
         }

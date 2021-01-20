@@ -42,7 +42,7 @@ namespace doan.PresentationLayer
         {
 
             dtNgayNhap.Format = DateTimePickerFormat.Custom;
-            dtNgayNhap.CustomFormat = "dd-MM-yyyy";
+            dtNgayNhap.CustomFormat = "MM-dd-yyyy";
             dtNgayNhap.Value = DateTime.Today;
             dtNgayNhap.Enabled = false;
 

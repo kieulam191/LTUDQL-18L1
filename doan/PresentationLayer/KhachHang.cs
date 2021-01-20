@@ -27,7 +27,7 @@ namespace doan.PresentationLayer
         private void KhachHang_Load(object sender, EventArgs e)
         {
             dtNgayLap.Format = DateTimePickerFormat.Custom;
-            dtNgayLap.CustomFormat = "dd-MM-yyyy";
+            dtNgayLap.CustomFormat = "MM-dd-yyyy";
             dtNgayLap.Value = DateTime.Today;
             dtNgayLap.Enabled = false;
 
@@ -102,11 +102,11 @@ namespace doan.PresentationLayer
             DataGridViewRow row = dgvKhachHang.Rows[index];
             //Đưa dữ liệu vào textbox
             cbMaKH.SelectedIndex = dgvKhachHang.Rows.Count - index;
-            cbTheKH.Text = row.Cells[0].Value.ToString();
-            txtTenKH.Text = row.Cells[1].Value.ToString();
-            txtSdt.Text = row.Cells[2].Value.ToString();
-            txtDiaChi.Text = row.Cells[3].Value.ToString();
-            txtCMND.Text = row.Cells[4].Value.ToString();
+            cbTheKH.Text = row.Cells[1].Value.ToString();
+            txtTenKH.Text = row.Cells[2].Value.ToString();
+            txtSdt.Text = row.Cells[3].Value.ToString();
+            txtDiaChi.Text = row.Cells[4].Value.ToString();
+            txtCMND.Text = row.Cells[5].Value.ToString();
         }
 
         private void dgvKhachHang_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -222,5 +222,7 @@ namespace doan.PresentationLayer
 
             
         }
+
+       
     }
 }

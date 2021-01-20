@@ -78,7 +78,7 @@ namespace doan.PresentationLayer
             ncc.TenNCC = txtTenNCC.Text;
             ncc.Sdt = txtSDT.Text;
             ncc.DiaChi = txtDiaChi.Text;
-            ncc.TinhTrang = txtDiaChi.Text;
+            ncc.TinhTrang = txtTinhTrang.Text;
 
             NhaCungCapBUS bus = new NhaCungCapBUS();
             DataTable dt = bus.CapNhatNhaCungCap(ncc);

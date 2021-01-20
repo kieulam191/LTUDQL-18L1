@@ -1,0 +1,16 @@
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\bin\Release\doan.exe.config
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\bin\Release\doan.exe
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\bin\Release\doan.pdb
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.csprojAssemblyReference.cache
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.Form1.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.GhiNo.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.KhachHang.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.NhaCungCap.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.PhieuBanHang.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.PhieuNhapHang.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.PresentationLayer.ThayDoiQuyDinh.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.Properties.Resources.resources
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.csproj.GenerateResource.cache
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.csproj.CoreCompileInputs.cache
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.exe
+C:\Users\lam\Desktop\New folder (2)\LTUDQL-18L1\doan\obj\Release\doan.pdb

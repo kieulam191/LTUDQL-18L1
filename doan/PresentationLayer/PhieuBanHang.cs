@@ -22,7 +22,7 @@ namespace doan.PresentationLayer
         private void PhieuBanHang_Load(object sender, EventArgs e)
         {
             dtNgayBan.Format = DateTimePickerFormat.Custom;
-            dtNgayBan.CustomFormat = "dd-MM-yyyy";
+            dtNgayBan.CustomFormat = "MM-dd-yyyy";
             dtNgayBan.Value = DateTime.Today;
             dtNgayBan.Enabled = false;
 
